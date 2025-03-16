@@ -1,0 +1,17 @@
+# Ignore all files inside the 'data/' folder but keep the folder itself
+data/*
+!data/.gitkeep
+
+# Ignore all files inside the 'models/' folder but keep the folder itself
+models/*
+!models/.gitkeep
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore Python's virtual environment folder
+venv/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
